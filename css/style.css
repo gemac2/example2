@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+body{
+    margin: 0px;
+    
+}
+h1{
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+h5{
+    color: rgb(109, 105, 105);
+    font-size: 12px;
+    margin-top: 0px;
+   
+}
+
+.wrapper{
+    margin: 0px;
+    width: 1000px;
+    height: 768px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    width: 1000px;
+    height: 60px;
+    background-color: white;
+    
+}
+.img-logo{
+    width: 30px;
+    padding: 10px;
+}
+.ima{
+display: flex;
+justify-content: flex-end;
+ 
+}
+.icons1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.icons2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pcontent{
+   display: flex;
+    width: 1000px;
+    height: 680px;
+    background: rgb(247, 239, 239);
+    margin: 0px;
+}
+.sidebar{
+    width: 250px;
+    height: 680px;  
+    background: black;
+}
+.caja1{
+    width: 750px;
+    height: 680px;
+  
+}
+.Diet{
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+    margin-top: 50px;
+}
+.profile {
+    width: 200px;
+    height: 200px; 
+    margin: 25px; 
+    margin-top: 30px;
+}
+h2{
+    color: white;
+    text-align: left;
+    font-size: 12px;
+   
+}
+h4{
+    color: white;
+    text-align: left;
+    font-size: 12px;
+}
+h4:hover{
+ background: brown;
+ border-radius: 50px;
+}
+.user{
+    display: flex;
+    width: 700px;
+    height: 60px;
+    margin: 20px;
+    margin-top: 0px;
+    background: rgb(247, 239, 239);
+}
+.lorem{
+    margin-left: 500px;
+}
+.lorem1 p{
+    margin-left: 370px;
+}
+.lorem2 p{
+    margin-left: 30px;
+}
+.lorem3 p{
+    margin-left: 30px;
+}
+.icon4{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: brown;
+    
+}
+
+.user2{
+    display: flex;
+    width: 700px;
+    height: 80px;
+    margin: 0px;
+    margin-top: 20px;
+    background: rgb(247, 239, 239);
+}
+
+  
+.tablas{
+    width: 700px;
+    height: 680px;
+    margin: 20px;
+   margin-top: 0px;
+}
+.date1{
+ display:flex;
+ justify-content: space-around;
+ width: 700px;
+ height: 100px;
+ background: white;
+ margin: 0px;
+ margin-top: -20px;
+ 
+}
+h6{
+    margin: 0px;
+    margin-top: 5px;
+}
+.T1{
+    width: 20px;
+    height: 70px;  
+   margin: 0px;
+   margin-top: 20px;
+}
+.T1a{
+    margin: 0px;
+    margin-top: 20px;
+   
+}
+.T1 h6{
+    color: rgb(211, 194, 194);
+}
+
+.T2{
+    width: 20px;
+    height: 70px;  
+   margin: 0px;
+   margin-top: 20px;
+} 
+.T2a{
+    margin: 0px;
+    margin-top: 20px;
+}    
+.T2 h6{
+    color: rgb(211, 194, 194);
+} 
+.T3{
+    width: 70px;
+    height: 70px;  
+   margin: 0px;
+   margin-top: 20px;
+}
+.T3a{
+    margin-right: 30px;
+    margin-top: 20px;
+}    
+.T3 h6{
+    color: rgb(211, 194, 194);
+}
+.T4{
+    width: 70px;
+    height: 70px;  
+   margin: -10px;
+   margin-top: 20px;
+}
+.T4a{
+    margin: 0px;
+    margin-top: 20px;
+}    
+.T4 h6{
+    color: rgb(211, 194, 194);
+}
+
+.date2{
+    width: 700px;
+    height: 400px;
+    background: white;
+    margin-top: -20px;
+}
+.week{
+    width: 700px;
+    height: 50px;
+    border: 1px;
+    border-style: none none solid none;
+    border-color: rgb(221, 216, 216);
+}
+.wt{
+    display: flex;
+    justify-content: space-between;
+}
+.wt h1{
+    margin: 20px;
+    margin-top: 15px;
+    color: black;
+    font-size: 13px;
+}
+.wt h2{
+    margin-right: 15px;
+    margin-top: 22px;
+    color: black;
+    font-size: 13px;
+}
+.days{
+    width: 700px;
+    height: 40px;
+    border: 1px;
+    border-style: none none solid none;
+    border-color: rgb(221, 216, 216); 
+}
+.time{
+    width: 700px;
+    height: 30px;
+    border: 1px;
+    border-style: none none solid none;
+    border-color: rgb(221, 216, 216); 
+}
+.dw{
+    display: flex;
+    justify-content: space-between;
+}
+.dw h1{
+    margin: 20px;
+    color: rgb(211, 194, 194);
+    font-size: 13px;
+    margin-top: 10px;
+}
+.dw h2{
+    font-size: 13px;
+    color: black;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+.dw h3{
+    margin-top: 15px;
+    margin-right: 50px;
+    color: rgb(211, 194, 194);
+    font-size: 13px;
+   
+}
+.dw h5{
+    margin-right: 20px;
+    margin-top: 15px;
+    font-size: 13px;
+    color: black;
+}
+.tm{
+    display: flex;
+    justify-content: space-between;
+}
+.tm h1{
+    margin: 20px;
+    margin-top: 2px;
+    color: black;
+    font-size: 13px;
+}
+.tm h2{
+    margin-right: 60px;
+    margin-top: 8px;
+    color: black;
+    font-size: 13px;   
+}
+.parrafos{
+    display: flex;
+    
+}
+.p3{
+margin: 20px;
+margin-top: -15px;
+}
+.p4{
+    margin-left: 186px;
+    margin-top: -15px;
+}
