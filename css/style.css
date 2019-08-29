@@ -18,19 +18,20 @@ h5{
     color: rgb(109, 105, 105);
     font-size: 12px;
     margin-top: 0px;
+    margin: 20px;
    
 }
 
 .wrapper{
     margin: 0px;
-    width: 1000px;
+    
     height: 768px;
 }
 .header{
     display: flex;
     justify-content: space-between;
     margin: 0px;
-    width: 1000px;
+    
     height: 60px;
     background-color: white;
     
@@ -58,47 +59,59 @@ justify-content: flex-end;
 }
 .pcontent{
    display: flex;
-    width: 1000px;
+    
     height: 680px;
     background: rgb(247, 239, 239);
     margin: 0px;
 }
 .sidebar{
-    width: 250px;
+   
     height: 680px;  
     background: black;
 }
 .caja1{
-    width: 750px;
+   
     height: 680px;
   
 }
 .Diet{
     width: 200px;
     height: 200px;
-    margin: 25px;
+    margin: 0px;
     margin-top: 50px;
 }
 .profile {
     width: 200px;
     height: 200px; 
-    margin: 25px; 
-    margin-top: 30px;
+    margin: 0px; 
+    margin-top: 100px;
 }
 h2{
     color: white;
     text-align: left;
     font-size: 12px;
+    margin: 20px;
    
 }
 h4{
     color: white;
     text-align: left;
     font-size: 12px;
+    margin: 20px;
 }
-h4:hover{
- background: brown;
- border-radius: 50px;
+.button{
+    background: rgb(54, 51, 51);
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    margin: -20px;
+    padding: 10px 40px;
+    text-align: left;
+    width: 120px;
+    text-decoration: none;
+    border-radius: 50px;
+    border-inline-style: solid none;
+    font-family: 'Roboto', sans-serif;
 }
 .user{
     display: flex;
@@ -159,58 +172,58 @@ h6{
     margin: 0px;
     margin-top: 5px;
 }
-.T1{
+.name{
     width: 20px;
     height: 70px;  
    margin: 0px;
    margin-top: 20px;
 }
-.T1a{
+.name1{
     margin: 0px;
     margin-top: 20px;
    
 }
-.T1 h6{
+.name h6{
     color: rgb(211, 194, 194);
 }
 
-.T2{
+.height{
     width: 20px;
     height: 70px;  
    margin: 0px;
    margin-top: 20px;
 } 
-.T2a{
+.height1{
     margin: 0px;
     margin-top: 20px;
 }    
-.T2 h6{
+.height h6{
     color: rgb(211, 194, 194);
 } 
-.T3{
+.bmi{
     width: 70px;
     height: 70px;  
    margin: 0px;
    margin-top: 20px;
 }
-.T3a{
+.bmi1{
     margin-right: 30px;
     margin-top: 20px;
 }    
-.T3 h6{
+.bmi h6{
     color: rgb(211, 194, 194);
 }
-.T4{
+.diet{
     width: 70px;
     height: 70px;  
    margin: -10px;
    margin-top: 20px;
 }
-.T4a{
+.diet1{
     margin: 0px;
     margin-top: 20px;
 }    
-.T4 h6{
+.diet h6{
     color: rgb(211, 194, 194);
 }
 
@@ -306,11 +319,16 @@ h6{
     display: flex;
     
 }
+.p2{
+    margin: 20px;
+    margin-top: -15px;
+}
 .p3{
-margin: 20px;
+margin: 0px;
+margin-left: 35px;
 margin-top: -15px;
 }
 .p4{
-    margin-left: 186px;
+    margin-left: 185px;
     margin-top: -15px;
 }
